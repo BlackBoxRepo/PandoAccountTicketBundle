@@ -11,12 +11,22 @@
     "keywords": ["pando account ticket bundle"],
     "license": ["LGPL-3.0"],
     "require": {
+        "blackboxcode/pando-account-bundle": "1.0.0",
+        "blackboxcode/pando-ticket-bundle": "1.0.0"
     },
     "autoload": {
         "psr-4": {"BlackBoxCode\\Pando\\Bundle\\AccountTicketBundle\\": ""}
     },
-    "repositories": [{
-    }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BlackBoxRepo/PandoAccountBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/BlackBoxRepo/PandoTicketBundle"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-master": "develop"
