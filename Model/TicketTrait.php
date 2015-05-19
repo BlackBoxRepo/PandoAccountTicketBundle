@@ -1,5 +1,5 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\AccountTicketBundle\Model;
+namespace BlackBoxCode\Pando\AccountTicketBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
